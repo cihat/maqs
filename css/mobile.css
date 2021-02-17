@@ -7,10 +7,9 @@
     flex-direction: column;
     align-items: center; }
     .container-project header .icon {
-      margin-bottom: 1rem;
-      width: 175px; }
+      margin-bottom: 1rem; }
       .container-project header .icon img {
-        width: 200px; }
+        width: 100px; }
     .container-project header .navbar ul {
       display: flex;
       flex-direction: column; }

@@ -1,14 +1,99 @@
 // Font Google
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 // Font Awesome
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
 
 * {
   text-decoration: none;
   -webkit-overflow-scrolling: touch;
-  font-family: "Mulish", sans-serif;
+  font-family: "Roboto", sans-serif;
   &:focus {
     outline: 0;
   }
 }
 
+.container-project {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px 30px 40px;
+    align-items: center;
+
+    .icon {
+      width: 73px;
+      margin-right: 16px;
+      a {
+      }
+    }
+
+    .navbar {
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li {
+          margin-right: 3rem;
+
+          a {
+            color: #000000;
+            font-size: 13px;
+            line-height: 14.95px;
+          }
+        }
+      }
+    }
+
+    .log-in {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .certificate {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 27px;
+        a {
+          p {
+            font-size: 14px;
+            line-height: 16.41px;
+            color: #000000;
+            margin-left: 3px;
+          }
+        }
+      }
+      .log-in-button {
+        button {
+          cursor: pointer;
+          width: 140px;
+          font-size: 14px;
+          line-height: 16.41px;
+          color: #ffffff;
+          padding: 12px 50px;
+          background: linear-gradient(90deg, #3ae4df 0%, #7a88ff 104.29%);
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+
+  .slider {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 110px 135px 193px 165px;
+    margin-bottom: 110px;
+
+    .left-text {
+      width: 399px;
+      height: 357px;
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        font-size: 56px;
+      }
+    }
+  }
+}
